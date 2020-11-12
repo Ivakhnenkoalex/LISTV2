@@ -32,5 +32,7 @@ def ft_join(lst,sep =' '):
             r = r + '9'
         if i != d - 1:
             r = r + sep
+        else:
+            r = r + lst[i]
         i = i + 1
     return r
