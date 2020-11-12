@@ -5,7 +5,7 @@ def ft_len_mass(mass):
     return a
 
 
-def ft_join(lst,sep=' '):
+def ft_join(lst,sep =' '):
     d = ft_len_mass(lst)
     i = 0
     r = ''
