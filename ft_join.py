@@ -34,6 +34,5 @@ def ft_join(lst,sep =' '):
             r = r + lst[i]
         if i != d - 1:
             r = r + sep
-        
         i = i + 1
     return r
