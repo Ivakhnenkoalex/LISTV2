@@ -12,27 +12,28 @@ def ft_join(lst,sep =' '):
     while d > i:
         if lst[i] == 0:
             r = r + '0'
-        if lst[i] == 1:
+        elif lst[i] == 1:
             r = r + '1'
-        if lst[i] == 2:
+        elif lst[i] == 2:
             r = r + '2'
-        if lst[i] == 3:
+        elif lst[i] == 3:
             r = r + '3'
-        if lst[i] == 4:
+        elif lst[i] == 4:
             r = r + '4'
-        if lst[i] == 5:
+        elif lst[i] == 5:
             r = r + '5'
-        if lst[i] == 6:
+        elif lst[i] == 6:
             r = r + '6'
-        if lst[i] == 7:
+        elif lst[i] == 7:
             r = r + '7'
-        if lst[i] == 8:
+        elif lst[i] == 8:
             r = r + '8'
-        if lst[i] == 9:
+        elif lst[i] == 9:
             r = r + '9'
-        if i != d - 1:
-            r = r + sep
         else:
             r = r + lst[i]
+        if i != d - 1:
+            r = r + sep
+        
         i = i + 1
     return r
